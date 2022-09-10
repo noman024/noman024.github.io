@@ -1,48 +1,35 @@
 {
-    "name": "Muhammad Hamza",
-    "email": "hamza@mhmz.dev",
+    "name": "Md. Mutasim Billah Abu Noman Akanda",
+    "email": "mutasim.billah.cse@ulab.edu.bd",
     "subtitles": [
-        "Flutter Developer",
-        "Technical Writer",
-        "UI/UX Designer"
+        "AI Enthusiast",
+        "Computer Vision Researcher",
+        "Data Science Expert"
     ],
-    "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
-    "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
+    "blackWhitePhotoURL": "https://drive.google.com/drive/u/0/folders/1rLEO7Pxsv4oCoqUjamQGojA4aS5dAgYD",
+    "coloredPhotoURL": "https://drive.google.com/drive/u/0/folders/1rLEO7Pxsv4oCoqUjamQGojA4aS5dAgYD",
     "socialLinks": [
         {
             "platform": "facebook",
-            "url": "https://facebook.com/mhmzdev"
-        },
-        {
-            "platform": "instagram",
-            "url": "https://instagram.com/mhmzdev"
-        },
-        {
-            "platform": "twitter",
-            "url": "https://twitter.com/mhmzdev"
+            "url": "https://www.facebook.com/mutasim.billah123/"
         },
         {
             "platform": "linkedin",
-            "url": "https://linkedin.com/in/mhmzdev"
+            "url": "https://www.linkedin.com/in/noman024/"
         },
         {
             "platform": "github",
-            "url": "https://github.com/mhmzdev"
-        },
-        {
-            "platform": "medium",
-            "url": "https://mhamzadev.medium.com/"
+            "url": "https://github.com/Noman024"
         }
     ],
-    "aboutMeHeadline": "I'm Muhammad Hamza, a Flutter developer, Technical Writer and UI/UX Designer.",
-    "aboueMeDetails": "I'm a Final Year Computer Science student enrolled in COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm a former Google DSC lead and also CEO/Co-Founder Flutter Islamabad, Pakistan.",
+    "aboutMeHeadline": "I\\'m Md. Mutasim Billah Abu Noman Akanda, looking for funding to pursue my higher studies in Artificial Intelligence related field.",
+    "aboueMeDetails": "I want to complete my Bachelor\\'s degree in Computer Science and Engineering with great skills and have a passion to develop my career as an Academic Expert. I always try to build problem-solving skills myself that makes me work even harder whenever I get a problem to solve. My biggest strength is to work even under pressure with proper time management.",
     "technologies": [
         "Flutter",
         "Dart",
         "Python",
-        "Java",
-        "C++",
-        "Flask"
+        "C#",
+        "C++"
     ],
     "services": [
         {
@@ -72,88 +59,46 @@
         }
     ],
     "hireMe": {
-        "whatsapp": "923460159889"
+        "whatsapp": "8801773272649"
     },
     "projects": [
         {
-            "title": "Awesome SnackBar",
-            "iconUrl": "https://drive.google.com/file/d/1EohcZdd5mg5dqHQIn24k_G0dpqQTFYwV/view?usp=sharing",
-            "bannerUrl": "assets/projects/medkitB.png",
-            "description": "A dart package including a wholesome experience of snackbar in your applications."
+            "title": "ULAB Blood Inventory Management System",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/blood.png",
+            "description": "A desktop application with local database to manage blood donation at ULAB which is developed in .Net framework with C#"
         },
         {
-            "title": "MedKit",
-            "iconUrl": "https://drive.google.com/file/d/1nr1FHUkACm5cg2MpXKNftUeKw888NcJt/view?usp=sharing",
-            "bannerUrl": "assets/projects/medkitB.png",
-            "description": "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels."
+            "title": "ULAB Library Management System",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/lib.png",
+            "description": "A web application with mysql server database to manage library functionalities at ULAB which is developed in ASP.Net framework with C#"
         },
         {
-            "title": "The Holy Qur'an",
-            "iconUrl": "https://drive.google.com/file/d/1jpkSQyGZP5EWPCIfRz-dU9TARXHN2P5o/view?usp=sharing",
-            "bannerUrl": "assets/projects/quranB.png",
-            "description": "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md"
+            "title": "ULAB Resource Management System",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/urmslogo.png",
+            "description": "This is a smartphone UI design prototype of URMS for managing ULAB resources which is done using Figma"
         },
         {
-            "title": "Here I Am",
-            "iconUrl": "assets/projects/hereiam.png",
-            "bannerUrl": "assets/projects/hereiamB.png",
-            "description": "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones."
-        },
-        {
-            "title": "COIVD 19 - Tracker",
-            "iconUrl": "assets/projects/covid.png",
-            "bannerUrl": "assets/projects/covidB.png",
-            "description": "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live."
-        },
-        {
-            "title": "Messenger Chat Head UI",
-            "iconUrl": "assets/projects/messenger.png",
-            "bannerUrl": "",
-            "description": "Tried to clone the famous Chat Heads by Facebook Messenger using Flutter. Its basically in-app not exactly like the original chat head."
-        },
-        {
-            "title": "flutter.dev - Flutter Web",
-            "iconUrl": "assets/projects/flutter.png",
-            "bannerUrl": "",
-            "description": "Flutter Official Site clone using Flutter Web. Try the live site here. For the time being its not responsive fully so there might be responsiveness issues."
-        },
-        {
-            "title": "Earbender",
-            "iconUrl": "assets/projects/earbender.png",
-            "bannerUrl": "",
-            "description": "A concept of Music App developed using Flutter. Having functionality of playing Audio."
-        },
-        {
-            "title": "File Transfer Protocol",
-            "iconUrl": "assets/projects/java.png",
-            "bannerUrl": "",
-            "description": "A simple GUI based Java application that sends file from Client to Server but not the other way around."
-        },
-        {
-            "title": "My Order",
-            "iconUrl": "assets/projects/android.png",
-            "bannerUrl": "",
-            "description": "A concept app for self-services at various restaurants now a days. More like a Restaurant Ordering System."
-        },
-        {
-            "title": "Hidev",
-            "iconUrl": "assets/services/open.png",
-            "bannerUrl": "",
-            "description": "Its my end semester project. The whole design I developed here is an inspiration from my favortie Flutter Developer Marcin Szałek and his blog Fidev."
+            "title": "Judiciary System for Bangladesh",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/judiciary.png",
+            "description": "Data Communication project prototype for the judiciary system of Bangladesh which is done using Cisco Packet Tracer"
         }
     ],
     "contact": [
         {
             "param": "address",
-            "value": "Attock, Pakistan"
+            "value": "Mohammadpur, Dhaka, Bangladesh"
         },
         {
             "param": "phone",
-            "value": "+92 346 0159889"
+            "value": "+880 1773272649"
         },
         {
             "param": "email",
-            "value": "hamza.6.shakeel@gmail.com"
+            "value": "mutasim.billah.cse@ulab.edu.bd"
         }
     ]
 }
