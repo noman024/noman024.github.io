@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/hmz/folio/BuildConfig.java
+ com.hmz.folio.BuildConfig

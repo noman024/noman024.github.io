@@ -1,0 +1,104 @@
+{
+    "name": "Md. Mutasim Billah Abu Noman Akanda",
+    "email": "mutasim.billah.cse@ulab.edu.bd",
+    "subtitles": [
+        "AI Enthusiast",
+        "Computer Vision Researcher",
+        "Data Science Expert"
+    ],
+    "blackWhitePhotoURL": "https://drive.google.com/drive/u/0/folders/1rLEO7Pxsv4oCoqUjamQGojA4aS5dAgYD",
+    "coloredPhotoURL": "https://drive.google.com/drive/u/0/folders/1rLEO7Pxsv4oCoqUjamQGojA4aS5dAgYD",
+    "socialLinks": [
+        {
+            "platform": "facebook",
+            "url": "https://www.facebook.com/mutasim.billah123/"
+        },
+        {
+            "platform": "linkedin",
+            "url": "https://www.linkedin.com/in/noman024/"
+        },
+        {
+            "platform": "github",
+            "url": "https://github.com/Noman024"
+        }
+    ],
+    "aboutMeHeadline": "I\\'m Md. Mutasim Billah Abu Noman Akanda, looking for funding to pursue my higher studies in Artificial Intelligence related field.",
+    "aboueMeDetails": "I want to complete my Bachelor\\'s degree in Computer Science and Engineering with great skills and have a passion to develop my career as an Academic Expert. I always try to build problem-solving skills myself that makes me work even harder whenever I get a problem to solve. My biggest strength is to work even under pressure with proper time management.",
+    "technologies": [
+        "Flutter",
+        "Dart",
+        "Python",
+        "C#",
+        "C++"
+    ],
+    "services": [
+        {
+            "icon": "assets/services/app.png",
+            "name": "Mobile App Development",
+            "description": "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!"
+        },
+        {
+            "icon": "assets/services/ui.png",
+            "name": "UI/UX Designing",
+            "description": "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!"
+        },
+        {
+            "icon": "assets/services/rapid.png",
+            "name": "Rapid Prototyping",
+            "description": "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype"
+        },
+        {
+            "icon": "assets/services/blog.png",
+            "name": "Technical Blog Writing",
+            "description": "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!"
+        },
+        {
+            "icon": "assets/services/open.png",
+            "name": "Open Source - GitHub",
+            "description": "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!"
+        }
+    ],
+    "hireMe": {
+        "whatsapp": "8801773272649"
+    },
+    "projects": [
+        {
+            "title": "ULAB Blood Inventory Management System",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/blood.png",
+            "description": "A desktop application with local database to manage blood donation at ULAB which is developed in .Net framework with C#"
+        },
+        {
+            "title": "ULAB Library Management System",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/lib.png",
+            "description": "A web application with mysql server database to manage library functionalities at ULAB which is developed in ASP.Net framework with C#"
+        },
+        {
+            "title": "ULAB Resource Management System",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/urmslogo.png",
+            "description": "This is a smartphone UI design prototype of URMS for managing ULAB resources which is done using Figma"
+        },
+        {
+            "title": "Judiciary System for Bangladesh",
+            "iconUrl": "https://drive.google.com/drive/u/0/folders/1paw77XMplYN98QnCrB3SGzUDjJQ_RGht",
+            "bannerUrl": "assets/projects/judiciary.png",
+            "description": "Data Communication project prototype for the judiciary system of Bangladesh which is done using Cisco Packet Tracer"
+        }
+    ],
+    "contact": [
+        {
+            "param": "address",
+            "value": "Mohammadpur, Dhaka, Bangladesh"
+        },
+        {
+            "param": "phone",
+            "value": "+880 1773272649"
+        },
+        {
+            "param": "email",
+            "value": "mutasim.billah.cse@ulab.edu.bd"
+        }
+    ]
+}
