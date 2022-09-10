@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\CSE438 - Smart Phone\\devfolio-main\\build\\url_launcher_android\\intermediates\\res\\merged\\debug\\values-vi\\values-vi.xml",
+            "outputFile": "E:\\CSE438 - Smart Phone\\portfolio\\build\\url_launcher_android\\intermediates\\res\\merged\\debug\\values-vi\\values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\3db6d125c6afcb0a6fe221b28e1b5f57\\core-1.6.0\\res\\values-vi\\values-vi.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "E:\\CSE438 - Smart Phone\\devfolio-main\\build\\url_launcher_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "E:\\CSE438 - Smart Phone\\portfolio\\build\\url_launcher_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\3db6d125c6afcb0a6fe221b28e1b5f57\\core-1.6.0\\res\\values-vi\\values-vi.xml",

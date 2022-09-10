@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\CSE438 - Smart Phone\\devfolio-main\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
+            "outputFile": "E:\\CSE438 - Smart Phone\\portfolio\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\877b48322d9db759d89ee912aac93cf5\\jetified-exoplayer-core-2.17.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\9320a6dfd1563dd2e4eb9d22f01cc14d\\jetified-exoplayer-core-2.18.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

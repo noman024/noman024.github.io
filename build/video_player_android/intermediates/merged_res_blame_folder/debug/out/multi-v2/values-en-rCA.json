@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\CSE438 - Smart Phone\\devfolio-main\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "E:\\CSE438 - Smart Phone\\portfolio\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\920905e3ceb0e0defa40133534dc2701\\core-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "outputFile": "E:\\CSE438 - Smart Phone\\devfolio-main\\build\\video_player_android\\intermediates\\res\\merged\\debug\\values-en-rCA\\values-en-rCA.xml",
+            "outputFile": "E:\\CSE438 - Smart Phone\\portfolio\\build\\video_player_android\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Admin\\.gradle\\caches\\transforms-2\\files-2.1\\920905e3ceb0e0defa40133534dc2701\\core-1.7.0\\res\\values-en-rCA\\values-en-rCA.xml",
