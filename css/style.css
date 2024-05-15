@@ -90,7 +90,6 @@ main > section {
     padding-top: 100px; /* Adjust this value to match the height of your navbar */
 }
 
-
 /* Research Interests section styles */
 #research-interests {
     margin: 20px 0;
@@ -459,6 +458,11 @@ footer {
         width: auto;
         /* Set padding */
         padding: 10px 20px;
+    }
+
+    /* Add padding to the top of each section equal to the height of the navbar */
+    main > section {
+        padding-top: 500px; /* Adjust this value to match the height of your navbar */
     }
 
     #research-interests,
