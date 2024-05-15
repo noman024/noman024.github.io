@@ -413,3 +413,54 @@ footer {
 .footer-content a:hover {
     text-decoration: underline; /* Add underline on hover */
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px; /* Reduce header padding */
+    }
+
+    .header-content {
+        flex-direction: column; /* Stack header content vertically */
+    }
+
+    .header-image img {
+        max-width: 150px; /* Decrease profile picture size */
+        margin-bottom: 10px; /* Add space below profile picture */
+    }
+
+    .contact-info p {
+        flex-direction: column; /* Stack contact info vertically */
+        align-items: flex-start; /* Align contact info items to the left */
+    }
+
+    .contact-info p img {
+        margin-right: 0; /* Remove margin on contact info icons */
+        margin-bottom: 5px; /* Add space below contact info icons */
+    }
+
+    nav a {
+        padding: 10px; /* Adjust padding for navigation links */
+        width: auto; /* Allow navigation links to expand */
+        height: auto; /* Allow navigation links to expand */
+    }
+
+    #research-interests,
+    #education,
+    #publications,
+    #work-experience,
+    #honors-awards,
+    #community-activities,
+    #skills-summary,
+    #achievements,
+    #machine-learning-projects {
+        padding: 10px; /* Reduce section padding */
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header-image img {
+        max-width: 200px; /* Increase profile picture size for tablets */
+    }
+}
