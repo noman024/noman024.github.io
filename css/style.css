@@ -8,9 +8,9 @@
 /* Body styles */
 body {
     font-family: 'Roboto', sans-serif; /* Updated font family */
+    background-image: url('../images/body-background.png');
     line-height: 1.6;
-    background-color: #f8f8f8;
-    color: #333;
+    color: #ffffff;
 }
 
 /* Header styles */
@@ -65,54 +65,24 @@ header p {
 }
 
 .contact-info p img {
-    width: 15px; /* Set width of the images */
+    width: 20px; /* Set width of the images */
     height: auto; /* Maintain aspect ratio */
     margin-right: 7px; /* Add space between icon and text */
 }
 
 .contact-info p a {
-    color: white; /* Set link color to white */
+    color: rgb(255, 255, 255); /* Set link color to white */
     text-decoration: none; /* Remove underline */
 }
 
 .contact-info p a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    background-color: #d0ff00; /* Change background color on hover */
+    color: #0d0d0e; /* Change text color on hover */
 }
 
 /* Main content styles */
 main {
     padding: 20px;
-}
-
-/* Footer styles */
-footer {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
-
-/* Navigation styles */
-nav {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
-}
-
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-    border: 2px solid #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-nav a:hover {
-    background-color: #fff;
-    color: #007bff;
 }
 
 /* Research Interests section styles */
@@ -122,7 +92,7 @@ nav a:hover {
 
 #research-interests h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -143,7 +113,7 @@ nav a:hover {
 
 #education h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -160,18 +130,17 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
+/* Navigation styles */
+nav {
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0;
+}
+
 /* Navigation container styles */
 .nav-container {
     display: flex;
     justify-content: center; /* Center the navigation horizontally */
-}
-
-/* Navigation styles */
-nav {
-    background-color: #0056b3; /* Darker blue for navigation */
-    padding: 10px;
-    text-align: center;
-    margin: 20px 0;
 }
 
 nav ul {
@@ -189,8 +158,8 @@ nav a {
     align-items: center; /* Center text vertically */
     justify-content: center; /* Center text horizontally */
     text-decoration: none;
-    background-color: #007bff;
-    color: #fff;
+    background-color: #494946;
+    color: #d0ff00;
     padding: 10px 20px; /* Adjust padding as needed */
     border-radius: 5px;
     transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
@@ -201,8 +170,8 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #fff; /* Change background color on hover */
-    color: #007bff; /* Change text color on hover */
+    background-color: #d0ff00; /* Change background color on hover */
+    color: #0d0d0e; /* Change text color on hover */
 }
 
 /* Publications section styles */
@@ -212,7 +181,7 @@ nav a:hover {
 
 #publications h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -225,7 +194,7 @@ nav a:hover {
 }
 
 .publication-item a {
-    color: #007bff;
+    color: #d0ff00;
     text-decoration: none;
 }
 
@@ -240,7 +209,7 @@ nav a:hover {
 
 #work-experience h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -272,7 +241,7 @@ nav a:hover {
 
 #honors-awards h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -292,7 +261,7 @@ nav a:hover {
 
 #community-activities h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -324,7 +293,7 @@ nav a:hover {
 
 #skills-summary h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -362,7 +331,7 @@ nav a:hover {
 
 #achievements h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -382,7 +351,7 @@ nav a:hover {
 
 #machine-learning-projects h2 {
     font-size: 24px;
-    color: #007bff;
+    color: #d0ff00;
     margin-bottom: 10px;
 }
 
@@ -405,7 +374,7 @@ nav a:hover {
 
 /* Footer styles */
 footer {
-    background-color: #007bff;
+    background-image: url('../images/header-background.png'); /* Add background image */
     color: #fff;
     padding: 10px;
     text-align: center;
@@ -421,7 +390,7 @@ footer {
 }
 
 .footer-content a {
-    color: #fff; /* Set link color to white */
+    color: #d0ff00; /* Set link color to white */
     text-decoration: none; /* Remove underline */
 }
 
