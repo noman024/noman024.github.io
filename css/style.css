@@ -7,15 +7,15 @@
 
 /* Body styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Updated font family */
     line-height: 1.6;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     color: #333;
 }
 
 /* Header styles */
 header {
-    background-color: #007bff;
+    background-color: #057af8;
     color: #fff;
     padding: 20px;
     text-align: center; /* Align text content to the center */
@@ -159,6 +159,9 @@ nav a:hover {
 
 /* Navigation styles */
 nav {
+    background-color: #0056b3; /* Darker blue for navigation */
+    padding: 10px;
+    text-align: center;
     margin: 20px 0;
 }
 
@@ -181,13 +184,16 @@ nav a {
     color: #fff;
     padding: 10px 20px; /* Adjust padding as needed */
     border-radius: 5px;
-    transition: background-color 0.3s ease; /* Add smooth transition */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for hover effects */
     width: 120px; /* Set a fixed width for the buttons */
     height: 60px; /* Set a fixed height for the buttons */
+    margin: 0 10px;
+    border: 2px solid #fff; /* Add border to buttons */
 }
 
 nav a:hover {
-    background-color: #0056b3; /* Change background color on hover */
+    background-color: #fff; /* Change background color on hover */
+    color: #007bff; /* Change text color on hover */
 }
 
 /* Publications section styles */
