@@ -9,16 +9,19 @@
 body {
     font-family: 'Roboto', sans-serif; /* Updated font family */
     line-height: 1.6;
-    background-color: #ffffff;
+    background-color: #f8f8f8;
     color: #333;
 }
 
 /* Header styles */
 header {
-    background-color: #057af8;
+    background-image: url('../images/header-background.png'); /* Add background image */
+    background-size: cover;
+    background-position: center;
     color: #fff;
     padding: 20px;
-    text-align: center; /* Align text content to the center */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
 .header-content {
@@ -91,19 +94,25 @@ footer {
 
 /* Navigation styles */
 nav {
-    background-color: #0056b3;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
     padding: 10px;
     text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #fff;
+    color: #007bff;
 }
 
 /* Research Interests section styles */
