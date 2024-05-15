@@ -443,9 +443,15 @@ footer {
 
     nav ul {
         display: flex; /* Display list items as a flex container */
+        flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
         overflow-x: auto; /* Allow horizontal scrolling */
         -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
         padding: 0;
+    }
+
+    nav li {
+        margin-right: 10px; /* Adjust margin between list items */
+        margin-bottom: 10px; /* Add margin below list items */
     }
 
     nav a {
