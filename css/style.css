@@ -421,7 +421,9 @@ footer {
     }
 
     .header-content {
-        flex-direction: column; /* Stack header content vertically */
+        display: flex;
+        flex-direction: column; /* Stack header content vertically on small screens */
+        align-items: center; /* Center items horizontally */
     }
 
     .header-image img {
@@ -439,10 +441,18 @@ footer {
         margin-bottom: 5px; /* Add space below contact info icons */
     }
 
+    nav ul {
+        display: flex; /* Display list items as a flex container */
+        overflow-x: auto; /* Allow horizontal scrolling */
+        -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+        padding: 0;
+    }
+
     nav a {
-        padding: 10px; /* Adjust padding for navigation links */
-        width: auto; /* Allow navigation links to expand */
-        height: auto; /* Allow navigation links to expand */
+        /* Remove fixed width */
+        width: auto;
+        /* Set padding */
+        padding: 10px 20px;
     }
 
     #research-interests,
@@ -457,11 +467,3 @@ footer {
         padding: 10px; /* Reduce section padding */
     }
 }
-
-/* Tablet Styles */
-@media (min-width: 768px) and (max-width: 1024px) {
-    .header-image img {
-        max-width: 200px; /* Increase profile picture size for tablets */
-    }
-}
-
