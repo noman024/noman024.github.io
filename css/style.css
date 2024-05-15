@@ -387,3 +387,29 @@ nav a:hover {
 .project-item strong {
     font-weight: bold;
 }
+
+/* Footer styles */
+footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center-align the content horizontally */
+}
+
+.footer-content p {
+    margin: 5px 0; /* Adjust spacing between paragraphs */
+}
+
+.footer-content a {
+    color: #fff; /* Set link color to white */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-content a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
