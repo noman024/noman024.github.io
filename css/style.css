@@ -85,6 +85,12 @@ main {
     padding: 20px;
 }
 
+/* Add padding to the top of each section equal to the height of the navbar */
+main > section {
+    padding-top: 100px; /* Adjust this value to match the height of your navbar */
+}
+
+
 /* Research Interests section styles */
 #research-interests {
     margin: 20px 0;
@@ -144,12 +150,14 @@ nav {
 }
 
 nav ul {
+    list-style-type: none;
     display: flex; /* Use flexbox for layout */
     list-style-type: none; /* Remove default list styling */
     padding: 0;
 }
 
 nav li {
+    display: inline;
     margin-right: 10px; /* Add spacing between list items */
 }
 
@@ -172,6 +180,11 @@ nav a {
 nav a:hover {
     background-color: #d0ff00; /* Change background color on hover */
     color: #0d0d0e; /* Change text color on hover */
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
 }
 
 /* Publications section styles */
@@ -430,10 +443,13 @@ footer {
         flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
         overflow-x: auto; /* Allow horizontal scrolling */
         -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
+        list-style-type: none;
+        margin: 0;
         padding: 0;
     }
 
     nav li {
+        display: inline;
         margin-right: 10px; /* Adjust margin between list items */
         margin-bottom: 10px; /* Add margin below list items */
     }
