@@ -159,3 +159,31 @@ nav a {
 nav a:hover {
     background-color: #0056b3; /* Change background color on hover */
 }
+
+/* Publications section styles */
+#publications {
+    margin: 20px 0;
+}
+
+#publications h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.publication-item {
+    margin-bottom: 20px;
+}
+
+.publication-item p {
+    margin-bottom: 5px;
+}
+
+.publication-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.publication-item a:hover {
+    text-decoration: underline;
+}
