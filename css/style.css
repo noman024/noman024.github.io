@@ -302,3 +302,88 @@ nav a:hover {
     margin-left: 20px;
 }
 
+/* Skills Summary section styles */
+#skills-summary {
+    margin: 20px 0;
+}
+
+#skills-summary h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.skills-item {
+    margin-bottom: 20px;
+}
+
+.skills-item p {
+    margin-bottom: 5px;
+}
+
+.skills-item strong {
+    font-weight: bold;
+}
+
+.skills-item ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 20px;
+}
+
+.skills-item ul li {
+    margin-bottom: 5px;
+}
+
+.skills-item ul li:before {
+    content: "•";
+    margin-right: 5px;
+}
+
+/* Achievements section styles */
+#achievements {
+    margin: 20px 0;
+}
+
+#achievements h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.achievements-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.achievements-list li {
+    margin-bottom: 10px;
+}
+
+/* Machine Learning Projects section styles */
+#machine-learning-projects {
+    margin: 20px 0;
+}
+
+#machine-learning-projects h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.project-item {
+    margin-bottom: 20px;
+}
+
+.project-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.project-item p {
+    margin-bottom: 5px;
+}
+
+.project-item strong {
+    font-weight: bold;
+}
