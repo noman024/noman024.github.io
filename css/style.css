@@ -58,29 +58,33 @@ header p {
     text-align: center; /* Center-align text */
 }
 
-.contact-info p {
-    margin: 5px 0; /* Adjust spacing between paragraphs */
+.contact-info span {
+    margin: 5px 0; /* Adjust spacing between spans */
     display: flex; /* Use flexbox for layout */
     align-items: center; /* Align items vertically */
     justify-content: center; /* Center-align items horizontally */
 }
 
-.contact-info p img {
-    width: 20px; /* Set width of the images */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 7px; /* Add space between icon and text */
+.contact-info span i {
+    margin-right: 5px; /* Add space between icon and text */
 }
 
-.contact-info p a {
+.contact-info span a {
     color: rgb(255, 255, 255); /* Set link color to white */
     text-decoration: none; /* Remove underline */
 }
 
-.contact-info p a:hover {
+.contact-info span a:hover {
     text-decoration: underline; /* Add underline on hover */
     background-color: #d0ff00; /* Change background color on hover */
     color: #0d0d0e; /* Change text color on hover */
 }
+
+.contact-info span {
+    display: inline; /* Display paragraphs inline */
+    margin-right: 20px; /* Add space between icon and text */
+}
+
 
 /* Main content styles */
 main {
