@@ -149,7 +149,6 @@ nav {
 }
 
 nav ul {
-    list-style-type: none;
     display: flex; /* Use flexbox for layout */
     list-style-type: none; /* Remove default list styling */
     padding: 0;
@@ -437,6 +436,10 @@ footer {
         margin-bottom: 5px; /* Add space below contact info icons */
     }
 
+    nav {
+        display: none; /* Hide the navbar on mobile devices */
+    }
+
     nav ul {
         display: flex; /* Display list items as a flex container */
         flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
@@ -450,7 +453,6 @@ footer {
     nav li {
         display: inline;
         margin-right: 10px; /* Adjust margin between list items */
-        margin-bottom: 10px; /* Add margin below list items */
     }
 
     nav a {
@@ -458,11 +460,6 @@ footer {
         width: auto;
         /* Set padding */
         padding: 10px 20px;
-    }
-
-    /* Add padding to the top of each section equal to the height of the navbar */
-    main > section {
-        padding-top: 500px; /* Adjust this value to match the height of your navbar */
     }
 
     #research-interests,
