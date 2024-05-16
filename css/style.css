@@ -428,10 +428,16 @@ footer {
     color: #0d0d0e; /* Change text color on hover */
 }
 
-/* Mobile Styles */
+/* Mobile and Tablet Styles */
 @media (max-width: 1170px) {
-    /* Adjust styles for smaller screens, including tablets */
-    .header-image img {
-        max-width: 50px; /* Decrease profile picture size */
+    /* Move header image to the top */
+    .header-content {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .header-image {
+        order: -1; /* Move the image to the top */
+        margin-bottom: 20px; /* Add space below the image */
     }
 }
