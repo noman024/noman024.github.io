@@ -432,7 +432,7 @@ footer {
 @media (max-width: 1170px) {
     /* Adjust styles for smaller screens, including tablets */
     .header-image img {
-        max-width: 150px; /* Decrease profile picture size */
+        max-width: 70px; /* Decrease profile picture size */
         margin-bottom: 10px; /* Add space below profile picture */
     }
 }
