@@ -429,7 +429,7 @@ footer {
 }
 
 /* Mobile Styles */
-@media (max-width: 768px) {
+@media (max-width: 1170px) {
     /* Adjust styles for smaller screens, including tablets */
     .header-image img {
         max-width: 0px; /* Decrease profile picture size */
