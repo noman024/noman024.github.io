@@ -9,20 +9,18 @@
 /* Body styles */
 body {
     font-family: 'Roboto', sans-serif; /* Updated font family */
-    background-image: url('../images/body-background.png');
     line-height: 1.6;
     color: #ffffff;
 }
 
+
 /* Header styles */
 header {
-    background-image: url('../images/header-background.png'); /* Add background image */
-    background-size: cover;
-    background-position: center;
+    background: radial-gradient(circle, #4c4c4c, #000000); /* Replace background image with gradient */
     color: #fff;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
@@ -89,6 +87,7 @@ header p {
 
 /* Main content styles */
 main {
+    background: radial-gradient(circle, #4c4c4c, #000000); /* Replace background image with gradient */
     padding: 20px;
 }
 
@@ -144,6 +143,7 @@ main > section {
 
 /* Navigation styles */
 nav {
+    background: radial-gradient(circle, #4c4c4c, #000000); /* Replace background image with gradient */
     padding: 10px;
     text-align: center;
     margin: 20px 0;
@@ -407,7 +407,7 @@ nav a:hover {
 
 /* Footer styles */
 footer {
-    background-image: url('../images/header-background.png'); /* Add background image */
+    background: radial-gradient(circle, #4c4c4c, #000000); /* Replace background image with gradient */
     color: #fff;
     padding: 10px;
     text-align: center;
