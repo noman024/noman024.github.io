@@ -1,7 +1,7 @@
 # Project Title: Md. Mutasim Billah Abu Noman Akanda's Portfolio Website
 
 ## Description
-This project is a personal portfolio website for Md. Mutasim Billah Abu Noman Akanda, a Machine Learning Engineer at Apurba Technologies Ltd. The website showcases his professional experience, education, skills, achievements, and machine learning projects.
+This project is a personal portfolio website for Md. Mutasim Billah Abu Noman Akanda, a Machine Learning Engineer. The website showcases his professional experience, education, skills, achievements, and machine learning projects.
 
 ## Features
 - Professional header section with a profile picture and contact information.
