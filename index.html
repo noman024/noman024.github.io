@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Md. Mutasim Billah Abu Noman Akanda — Senior ML Engineer, Researcher & Educator</title>
     <meta name="description"
-        content="Senior ML engineer and AI researcher: production OCR and document AI (low-resource languages), LLMs, RAG, voice AI, web-scale crawling. 3+ years industry; 2+ years CS teaching assistant; peer-reviewed ACM & Springer papers. Python, PyTorch, FastAPI. Open to remote and relocation.">
+        content="Senior ML engineer and AI researcher: production OCR and document AI (low-resource languages), LLMs, RAG, voice AI (FastAPI + Next.js, faster-whisper, Piper, Ollama; optional LiveKit, MuseTalk), web-scale crawling. 3+ years industry; 2+ years CS teaching assistant; peer-reviewed ACM & Springer papers. Python, PyTorch, FastAPI. Open to remote and relocation.">
     <meta name="keywords"
-        content="Machine Learning Engineer, AI Researcher, Document AI, OCR, Layout Analysis, LLM, VLM, RAG, PyTorch, FastAPI, Bengali NLP, low-resource languages, LiveKit, WebRTC, voice AI, STT, TTS, Teaching Assistant, ACM, Springer, Md. Mutasim Billah Abu Noman Akanda, noman024">
+        content="Machine Learning Engineer, AI Researcher, Document AI, OCR, Layout Analysis, LLM, VLM, RAG, PyTorch, FastAPI, Bengali NLP, low-resource languages, LiveKit, WebRTC, voice AI, healthcare agent, Piper TTS, SQLite, MuseTalk, STT, Teaching Assistant, ACM, Springer, Md. Mutasim Billah Abu Noman Akanda, noman024">
     <meta name="author" content="Md. Mutasim Billah Abu Noman Akanda">
     <meta property="og:title" content="Md. Mutasim Billah Abu Noman Akanda — Senior ML Engineer & AI Researcher">
     <meta property="og:description"
@@ -38,7 +38,7 @@
         "@type": "CollegeOrUniversity",
         "name": "University of Liberal Arts Bangladesh"
       },
-      "knowsAbout": ["Machine Learning", "Deep Learning", "Large Language Models", "Vision-Language Models", "Document AI", "OCR", "Retrieval Augmented Generation", "Computer Vision", "Natural Language Processing", "Low-resource NLP", "Voice AI", "LiveKit", "WebRTC", "Speech-to-Text", "Text-to-Speech", "FastAPI", "PyTorch", "Computer Science Education"]
+      "knowsAbout": ["Machine Learning", "Deep Learning", "Large Language Models", "Vision-Language Models", "Document AI", "OCR", "Retrieval Augmented Generation", "Computer Vision", "Natural Language Processing", "Low-resource NLP", "Voice AI", "Healthcare Conversational AI", "LiveKit", "WebRTC", "Speech-to-Text", "Text-to-Speech", "FastAPI", "PyTorch", "SQLite", "Computer Science Education"]
     }
     </script>
 </head>
@@ -103,7 +103,7 @@
             <div class="prose card">
                 <p>Senior Machine Learning Engineer with 3+ years shipping production systems: <strong>enterprise OCR and layout analysis</strong> (including low-resource languages), <strong>large-scale crawling and detection pipelines</strong>, and <strong>LLM/VLM-powered products</strong> (RAG, voice, APIs). Focus on validation, cost–latency–accuracy tradeoffs, and maintainable services.</p>
                 <p><strong>Research:</strong> document layout analysis and applied ML; peer-reviewed papers at <strong>ACM SE ’24</strong> and <strong>Springer</strong> (LNNS). <strong>Teaching:</strong> 2+ years as undergraduate TA in CS (programming, OOP, AI, software engineering)—labs, assessment, and project mentoring.</p>
-                <p>Stack highlights: <strong>Python, PyTorch, FastAPI, Docker</strong>, PostgreSQL/pgvector, async crawling (Playwright, Crawl4AI), and common LLM inference tooling (vLLM, Ollama). <strong>English</strong> (professional) and <strong>Bengali</strong> (native).</p>
+                <p>Stack highlights: <strong>Python, PyTorch, FastAPI, Docker</strong>, PostgreSQL/pgvector, SQLite-backed agent tools where appropriate, async crawling (Playwright, Crawl4AI), and common LLM inference tooling (vLLM, Ollama), plus local voice stacks (e.g. <strong>faster-whisper</strong>, <strong>Piper</strong>) with optional <strong>LiveKit</strong> WebRTC paths. <strong>English</strong> (professional) and <strong>Bengali</strong> (native).</p>
             </div>
         </section>
 
@@ -216,7 +216,7 @@
                 </div>
                 <div class="skill-block card">
                     <h3>Machine learning &amp; AI</h3>
-                    <p>PyTorch, TensorFlow, scikit-learn, Sentence Transformers, Hugging Face, faster-whisper, vLLM, Ollama, LLM integration, deployment, OpenCV, EAST/CRNN handwritten OCR, QAT, DataParallel</p>
+                    <p>PyTorch, TensorFlow, scikit-learn, Sentence Transformers, Hugging Face, faster-whisper, Piper (TTS), vLLM, Ollama, LLM integration, deployment, OpenCV, EAST/CRNN handwritten OCR, QAT, DataParallel</p>
                 </div>
                 <div class="skill-block card">
                     <h3>Deep learning &amp; NLP</h3>
@@ -224,7 +224,7 @@
                 </div>
                 <div class="skill-block card">
                     <h3>Backend &amp; data</h3>
-                    <p>FastAPI, WebSockets, LiveKit/WebRTC, Redis, SQLAlchemy, PostgreSQL, pgvector, Pydantic, rate limiting, HTTP microservices</p>
+                    <p>FastAPI, WebSockets, LiveKit/WebRTC, SQLite, Redis, SQLAlchemy, PostgreSQL, pgvector, Pydantic, rate limiting, HTTP microservices</p>
                 </div>
                 <div class="skill-block card">
                     <h3>Web automation &amp; discovery</h3>
@@ -247,7 +247,7 @@
 
         <section id="projects" class="section">
             <h2 class="section-title">Research & Technical Projects</h2>
-            <p class="section-intro">Production-oriented systems aligned with current work: OCR, matching platforms, voice AI, and RAG.</p>
+            <p class="section-intro">Production-oriented systems aligned with current work: OCR, matching platforms, full-stack voice agents (REST/WebSocket + optional LiveKit), and RAG.</p>
             <div class="project-grid">
                 <article class="project-card card">
                     <h3>SenseScan</h3>
@@ -262,6 +262,13 @@
                     <p>End-to-end platform: CV signal extraction, AI-driven professor/opportunity discovery, ranked matches with evidence and outreach drafts.</p>
                     <p class="tech-tags">FastAPI · Next.js · TypeScript · PostgreSQL · pgvector · Playwright · Docker</p>
                     <a class="text-link" href="https://github.com/noman024/gradconnectai" target="_blank" rel="noopener noreferrer">GitHub →</a>
+                </article>
+                <article class="project-card card">
+                    <h3>Voice Healthcare Agent</h3>
+                    <p class="project-sub">Full-stack conversational agent (FastAPI · Next.js 14)</p>
+                    <p>Open-source monorepo: <strong>FastAPI</strong> backend with <strong>Next.js</strong> <code>/call</code> UI—REST and WebSockets for STT/TTS and agent turns, plus optional <strong>LiveKit</strong> WebRTC via a dedicated worker calling the same API. Uses <strong>Ollama</strong>, <strong>faster-whisper</strong>, and <strong>Piper</strong>; <strong>SQLite</strong> for appointment tooling and transcript persistence aligned across transports; optional <strong>MuseTalk</strong> lip-sync. Backend and frontend CI with pytest and Vitest.</p>
+                    <p class="tech-tags">Python · TypeScript · FastAPI · Next.js · LiveKit · Ollama · Docker Compose · GitHub Actions</p>
+                    <a class="text-link" href="https://github.com/noman024/healthcare-voice-ai-agent" target="_blank" rel="noopener noreferrer">GitHub →</a>
                 </article>
                 <article class="project-card card">
                     <h3>AI Interview Bot</h3>
