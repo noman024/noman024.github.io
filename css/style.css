@@ -44,6 +44,21 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+/* —— Accessible focus —— */
+:focus {
+    outline: none;
+}
+
+:focus-visible {
+    outline: 3px solid rgba(201, 162, 39, 0.9);
+    outline-offset: 3px;
+}
+
+a:focus-visible,
+.btn:focus-visible {
+    border-radius: 10px;
+}
+
 .skip-link {
     position: absolute;
     left: -9999px;
