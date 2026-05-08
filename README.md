@@ -1,39 +1,43 @@
-# Project Title: Md. Mutasim Billah Abu Noman Akanda's Portfolio Website
+# noman024.github.io Portfolio
 
-## Description
-This project is a personal portfolio website for Md. Mutasim Billah Abu Noman Akanda, a Machine Learning Engineer. The website showcases his professional experience, education, skills, achievements, and machine learning projects.
+Dual-track personal site for:
+- **Industry audience** (recruiters, hiring managers, startup teams)
+- **Academic audience** (faculty, PhD admissions committees, research collaborators)
 
-## Features
-- Professional header section with a profile picture and contact information.
-- Navigation bar for easy access to different sections of the website.
-- Sections for research interests, education, publications, work experience, honors & awards, community activities, skills summary, achievements, and machine learning projects.
-- Each section contains relevant information presented in a clear and organized manner.
-- Responsive design for optimal viewing on various devices.
+## Site Strategy
+- Single domain with two clear identity modes:
+  - **Industry Track**: deployment impact, production systems, measurable engineering outcomes
+  - **Academic Track**: research direction, publications, methodology, reproducibility intent
+- Shared factual foundation (education, publications, projects) with audience-specific framing.
 
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript (for potential future enhancements)
+## Current Structure
+- `index.html`: main content, dual-mode gateway, shared experience and project sections
+- `css/style.css`: visual system and responsive layout
+- `images/`: visual assets (profile and media)
 
-## How to Contribute
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/noman024/noman024.github.io.git
+## Content Maintenance Rules
+1. Keep claims evidence-backed (metrics, publications, links).
+2. Use **industry language** only in industry sections (throughput, latency, cost, reliability).
+3. Use **academic language** only in academic sections (problem framing, method, evaluation rigor).
+4. Avoid mixed messaging in hero/intro blocks.
+5. Update publication entries in one pass (title, venue, DOI, author order).
 
-2. Make your changes or enhancements to the HTML and CSS files.
-3. Test your changes locally to ensure they work as expected.
-4. Commit your changes and push them to your forked repository.
-5. Create a pull request to merge your changes into the main repository.
+## Recommended Next Additions
+- Dedicated pages:
+  - `/industry.html`
+  - `/academic.html`
+- Downloadable documents:
+  - `Resume-Industry.pdf`
+  - `CV-Academic.pdf`
 
-## Future Enhancements
-- Implement JavaScript functionality for interactive elements and animations
-- Add a blog section to share insights, experiences, and updates.
-- Incorporate a contact form for visitors to reach out directly.
-- Integrate with a content management system (CMS) for easier content updates.
+## CV PDF Automation
+- Workflow: `.github/workflows/build-cv-pdfs.yml` in the `noman024` profile repo.
+- Trigger: on push when `CV-Industry.tex` or `CV-Academic.tex` changes, or via manual dispatch.
+- Output: regenerates `CV-Industry.pdf` and `CV-Academic.pdf` and commits them automatically.
+- Research statement page with faculty-fit map.
 
-## Credits
-- Md. Mutasim Billah Abu Noman Akanda: Developer and owner of the portfolio website.
-- Open-source libraries and frameworks used in the project.
+## Local Editing
+Edit `index.html` and `css/style.css`, then open `index.html` in a browser to validate rendering and navigation anchors.
 
-## Contact Information
-For inquiries or feedback, please contact Md. Mutasim Billah Abu Noman Akanda at mutasim.billah024@gmail.com.
+## Contact
+mutasim.billah024@gmail.com
